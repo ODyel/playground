@@ -8,6 +8,6 @@
       "density": 1.0
     }
   ],
-  "start_url": "/notification-generator/",
+  "start_url": "/notification-generator/notification.html",
   "display": "standalone"
 }
