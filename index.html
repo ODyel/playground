@@ -20,6 +20,11 @@
 		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 		  ga('create', 'UA-88564223-1', 'auto', 't3');
 		</script>
+		<script>
+		var datafile = {"groups": [], "projectId": "8515863675", "experiments": [{"status": "Running", "audienceIds": [], "variations": [{"id": "8519594779", "key": "original"}, {"id": "8528146791", "key": "variation"}], "id": "8528993487", "key": "demo_experiment", "layerId": "8516767337", "trafficAllocation": [{"entityId": "8528146791", "endOfRange": 5000}, {"entityId": "8519594779", "endOfRange": 10000}], "forcedVariations": {}}], "audiences": [], "version": "2", "attributes": [], "accountId": "2779270234", "events": [{"experimentIds": ["8528993487"], "id": "8529040925", "key": "myEvent"}], "revision": "4"}
+
+		 var optimizely = optimizelyClient.createInstance({datafile : datfile });
+		</script>
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
